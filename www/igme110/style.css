@@ -1,0 +1,27 @@
+body {
+  background-color: #C1D7FF;
+}
+
+h1 {
+  color: black;
+  padding-left: 270px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: left
+}
+
+p {
+  padding-left: 90px;
+  font-family: 'Jomolhari', serif;
+  text-align:  left;
+  font-size: 20px;
+  text
+}
+
+
+
+img {
+  display: block;
+  float: right;
+  float: top;
+  padding: 90px;
+}
