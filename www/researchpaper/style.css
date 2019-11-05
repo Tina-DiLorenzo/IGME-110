@@ -27,7 +27,7 @@ ul.normal {
   list-style-type: none;
   margin: 0;
   padding-left:50px;
-  background-color: #white;
+  background-color: #ffffff;
   background: white;
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
@@ -54,15 +54,26 @@ li a:hover {
 li a.bib{
     color: black;
     display: inline;
-    padding: auto;
     text-align: left;
     padding-left: 0px;
 
 }
+
 li a.bib:hover {
   background-color: inherit;
+}
 
-h2 {
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2053AC;
+  color: #ffffff;
+  text-align: center;
+}
+
+h2{
 
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
@@ -102,12 +113,7 @@ p.smaller {
   font-size: 15px;
 }
 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #2053AC;
-  color: white;
-  text-align: center;
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
 }
